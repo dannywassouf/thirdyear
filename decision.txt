@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 namespace MachineLearning.DecisionTree
 {
+
     public class DecisionTreeID3<T> where T : IEquatable<T>
     {
         T[,] Data;
